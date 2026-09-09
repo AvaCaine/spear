@@ -20,7 +20,7 @@ Copy the following and add it to your terminal config (`~/.zshrc` or `~/.bashrc`
 ```bash
 spear() {
   if [ "$1" = "radius" ] && [ "$2" -ge 1 ] && [ "$2" -le 15 ] 2>/dev/null; then
-    ~/spear/rad-"$2".sh
+    ~/spear/scripts/rad-"$2".sh
   else
     echo "Usage: spear radius <1-15>"
   fi
@@ -32,7 +32,7 @@ If you are using **Fish shell** (`~/.config/fish/config.fish`), use this syntax 
 ```fish
 function spear
     if test "$argv[1]" = "radius"; and test "$argv[2]" -ge 1 2>/dev/null; and test "$argv[2]" -le 15 2>/dev/null
-        ~/spear/rad-$argv[2].sh
+        ~/spear/scripts/rad-$argv[2].sh
     else
         echo "Usage: spear radius <1-15>"
     end
