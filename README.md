@@ -43,9 +43,9 @@ end
 
 Don't worry about how floating windows will look; when a window is tiled to fill, it is still classified as floating, hence, the rounding persists. Spear is a simple utility that removes macOS's aggressive rounding. Spear leaves just enough rounding that it isn't visible when a window is half-maximized/set to fill (not to be confused with maximize, which will hide gaps regardless and remove rounding). If the window is shrunk or floating and not taking up all space, there will still be just a tiny bit of rounding—nothing too visible, but enough to keep the window smooth and prevent weird-looking border lines or glitches.
 <br>
+
 <br>
-## Stylization/Appearance
-Don't worry about how floating windows will look, when a window is tiled to fill, it is still classified as floating, hence, the rounding persists. Spear is a simple utility that removes MacOS 26 and 27's aggressive rounding, spear leaves just enough rounding that it isn't visible when window is half-maximized/set to fill (not to be confused with maximize which will hide gaps regardless and remove rounding) yet, if the windows is shrunk/floating and not taking up all space, in which case, completely sharp 90° angle, there will still be just a tiny bit of rounding, nothing too visible, but enough to keep the window smooth, and not have any weird looking lines. This means less glitches or weird window border lines.
+
 
 ## Customization
 You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15
