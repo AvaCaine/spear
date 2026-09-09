@@ -7,6 +7,8 @@ git clone https://spear.git
 cd spear
 chmod +x sharp-corners-on
 chmod +x sharp-corners-off
+chmod +x setup.sh
+./setup.sh
 cd
 ```
 <br>
@@ -50,3 +52,7 @@ Don't worry about how floating windows will look; when a window is tiled to fill
 ## Customization
 You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15
 Example: `spear radius 8`
+To disable, simply run:
+```bash
+defaults delete -g NSConvolutionOverride1
+```
