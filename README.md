@@ -31,7 +31,7 @@ spear() {
 
 If you are using **Fish shell** (`~/.config/fish/config.fish`), use this syntax instead:
 
-```fish
+```bash
 function spear
     if test "$argv[1]" = "radius"; and test "$argv[2]" -ge 1 2>/dev/null; and test "$argv[2]" -le 15 2>/dev/null
         ~/spear/scripts/rad-$argv[2].sh
