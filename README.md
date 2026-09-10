@@ -2,8 +2,8 @@
 A MacOS utility for toggling corners/corner radii to eliminate gaps between windows and corners of screen.
 <br>
 Install latest version of spear and run:
-```bash
-git clone https://spear.git
+```console
+git clone https://github.com/AvaCaine/spear.git
 cd spear
 chmod +x sharp-corners-on
 chmod +x sharp-corners-off
@@ -53,6 +53,6 @@ Don't worry about how floating windows will look; when a window is tiled to fill
 You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15. <br>
 Example: `spear radius 8` <br>
 To disable, simply run:
-```properties
+```console
 defaults delete -g NSConvolutionOverride1
 ```
