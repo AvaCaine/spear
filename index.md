@@ -50,9 +50,9 @@ Don't worry about how floating windows will look; when a window is tiled to fill
 
 
 ## Customization
-You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15
-Example: `spear radius 8`
+You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15. <br>
+Example: `spear radius 8` <br>
 To disable, simply run:
-```bash
+```properties
 defaults delete -g NSConvolutionOverride1
 ```
