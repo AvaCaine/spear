@@ -21,10 +21,10 @@ Copy the following and add it to your terminal config (`~/.zshrc` or `~/.bashrc`
 
 ```bash
 spear() {
-  if [ "$1" = "radius" ] && [ "$2" -ge 1 ] && [ "$2" -le 15 ] 2>/dev/null; then
+  if [ "$1" = "radius" ] && [ "$2" -ge 1 ] && [ "$2" -le 50 ] 2>/dev/null; then
     ~/spear/scripts/rad-"$2".sh
   else
-    echo "Usage: spear radius <1-15>"
+    echo "Usage: spear radius <1-50>"
   fi
 }
 ```
@@ -33,10 +33,10 @@ If you are using **Fish shell** (`~/.config/fish/config.fish`), use this syntax 
 
 ```bash
 function spear
-    if test "$argv[1]" = "radius"; and test "$argv[2]" -ge 1 2>/dev/null; and test "$argv[2]" -le 15 2>/dev/null
+    if test "$argv[1]" = "radius"; and test "$argv[2]" -ge 1 2>/dev/null; and test "$argv[2]" -le 50 2>/dev/null
         ~/spear/scripts/rad-$argv[2].sh
     else
-        echo "Usage: spear radius <1-15>"
+        echo "Usage: spear radius <1-50>"
     end
 end
 ```
@@ -50,7 +50,7 @@ Don't worry about how floating windows will look; when a window is tiled to fill
 
 
 ## Customization
-You can choose radius via `spear radius` followed by intensity (numeric) numbers can rage from 1 to 15. <br>
+You can choose radius via `spear radius` followed by intensity (numeric) numbers can range from 1 to 50. <br>
 Example: `spear radius 8` <br>
 To disable, simply run:
 ```console
