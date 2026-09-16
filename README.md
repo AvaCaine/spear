@@ -56,3 +56,9 @@ To disable, simply run:
 ```console
 defaults delete -g NSConvolutionOverride1
 ```
+
+## Uninstall
+Run the following command <br>
+```bash
+./uninstall.sh
+```

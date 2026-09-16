@@ -49,3 +49,4 @@ chmod +x scripts/rad-47.sh
 chmod +x scripts/rad-48.sh
 chmod +x scripts/rad-49.sh
 chmod +x scripts/rad-50.sh
+chmod +x uninstall.sh
