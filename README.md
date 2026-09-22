@@ -13,6 +13,10 @@ cd
 ```
 <br>
 
+## Try it with...
+Try Spear with Omachy (not to be confused with omarchy) Omachy feels like hyprland/is a configuration of aerospace coming with a neat custom top bar. Turns the desktop into what feels like an entirely different desktop environment. Omachy doesn't customize borders. Try Spear with it! <br>
+(Omachy)[https://omachy.org/]
+
 ## Set up Spear commands
 
 <br>
